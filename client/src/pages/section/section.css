@@ -1,0 +1,133 @@
+.sectionContainer{
+    display: flex;
+    margin: 50px 100px;
+}
+
+.sidebar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.sidebarSection{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar span{
+    width: 150px;
+    height: 2px;
+    background-color: rgb(182, 180, 180);
+    margin-top: 20px;
+}
+
+.sidebarTitle{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.sidebarSection{
+    width: max-content;
+}
+
+.sidebarSection:first-child .sidebarItem{
+    cursor: pointer;
+}
+
+.sidebarSection:first-child .sidebarItem:hover{
+    text-decoration: underline;
+}
+
+.sidebarItemButton{
+    border: none;
+    width: 150px;
+    background-color: orange;
+    padding: 7px;
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.sidebarSection .sidebarItem{
+    width: max-content;
+}
+
+.sidebarSection .sidebarItem.back{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sidebarSection .sidebarItem input{
+    border: 1px solid gray;
+    outline: none;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.sidebarSection .sidebarItem .sidebarItemTitle{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.mainSection{
+    flex: 4;  
+}
+
+.mainSectionTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 51.5vw;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.mainSectionTitlePic{
+    opacity: .8;
+    object-fit: cover;
+    height: 100px;
+}
+
+.mainSectionTitlePic:nth-child(1){
+    flex: 3;
+}
+
+.mainSectionTitlePic:nth-child(2){
+    flex: 2;
+}
+
+.mainSectionTitlePic:nth-child(3){
+    flex: 1;
+}
+
+.mainSectionTitleDesc{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    left: 100px;
+}
+
+.mainSectionCards{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+}
+
+.mainSectionCard{
+    margin: 10px 0;
+}
+
+.notFoundAlert{
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

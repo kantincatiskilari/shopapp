@@ -1,0 +1,50 @@
+.card{
+    flex: 1;
+    width: 25vw;
+    margin-bottom: 20px;
+}
+
+.cardContainer .cardImg{
+    position: relative;
+    -webkit-box-shadow: 10px 4px 20px -8px rgba(0,0,0,0.59);
+    -moz-box-shadow: 10px 4px 20px -8px rgba(0,0,0,0.59);
+    box-shadow: 10px 4px 20px -8px rgba(0,0,0,0.59);
+    width: 19vw;
+    border-radius: 100px;
+}
+
+.discountRate{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 14px;
+}
+
+.cardContainer .cardImg img{
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.cardDesc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px 0;
+}
+
+.cardDesc .cardDescTitle{
+    font-size: 17px;
+    font-weight: bolder;
+}

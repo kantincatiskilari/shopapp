@@ -1,0 +1,33 @@
+.collections{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    overflow:hidden ;
+}
+
+.collectionsTitle{
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+.collections-top,.collections-down{
+    display: flex;
+    gap: 2px;
+}
+
+.collections img{
+    width: 19.7vw;
+    object-fit: cover;
+
+}
+
+.collections-top img{
+    height: 500px;
+}
+
+.collections-down img{
+    height: 300px;
+}

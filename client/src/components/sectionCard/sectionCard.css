@@ -1,0 +1,61 @@
+.sectionCard{
+    flex: 3;
+    max-width: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.sectionCardPic{
+    height: 200px;
+    width: 280px;
+    object-fit: contain;
+
+}
+
+.sectionCardName{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.sectionCardDesc{
+    margin: 10px 0;
+    font-weight: 300;
+}
+
+.sectionCardPrice{
+    font-weight: 300;
+    color: red;
+}
+
+.sectionCardColors{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sectionCardColor{
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+
+.sectionCardColor svg{
+    color: white;
+}
+
+.sectionCardColor.selected{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discountRate.section-card{
+    top: 0;
+    right: 0;
+}

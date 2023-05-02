@@ -1,0 +1,25 @@
+.redirection{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(43,40,40,1) 50%, rgba(0,0,0,1) 100%);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.redirectMessage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    color: #fff;
+}
+
+.redirectMessageIcon{
+    height: 100px;
+    width: 100px;
+}
+
+.redirectMessageIcon svg{
+    height: 100%;
+    width: 100px;
+}

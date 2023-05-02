@@ -1,0 +1,155 @@
+.cart{
+    margin: 20px 150px;
+    display: flex;
+    align-items: center;
+    width: 70vw;
+}
+
+.noItem{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.noItemAlert{
+    font-size: 22px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.noItem svg{
+    font-size: 60px;
+}
+
+.cartItems{
+    margin-right: 30px;
+    flex: 3;
+    border: 2px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.cartItems.disabled{
+    border: none;
+}
+
+.cartItem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.cartItemDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+}
+
+.cartItemDescTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cartItemDescSubtitle{
+    font-size: 14px;
+    font-weight: 300;
+    width: 200px;
+}
+
+.cartItemPic{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.cartItemPrice{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 500px;
+}
+
+.cartItemRemove{
+    color: gray;
+    cursor: pointer;
+}
+
+.cartHighlight{
+    flex: 1;
+}
+
+.cartHighlight{
+    background-color: rgb(252, 248, 248);
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px 5px;
+}
+
+.cartHighlightTitle{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 5px;
+    color: crimson;
+}
+
+.cartHighlightPrice{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 5px;
+}
+
+.productPrice, .shipmentPrice, .totalPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shipmentPrice{
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.productPrice div:first-child, .shipmentPrice div:first-child, .totalPrice div:first-child{
+    color: gray;
+    font-weight: 300;
+}
+
+.productPrice div:last-child, .shipmentPrice div:last-child, .totalPrice div:last-child{
+    color: black;
+    font-size: 14px;
+}
+
+
+.cartApproveButton button{
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background: rgb(21, 187, 21);
+    color: white;
+    cursor: pointer;
+}
+
+.paymentCompleted{
+    color: rgb(21, 187, 21);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 12px;
+}
+
+.paymentCompleted svg{
+    font-size: 100px;
+}
