@@ -10,7 +10,7 @@ const app = express();
 dotenv.config();
 
 mongoose.set('strictQuery', true);
-mongoose.connect(process.env.MONGO_URL)
+mongoose.connect(process.env.MONGO_URL || "mongodb+srv://kantincatiskilari:gses1905@cluster0.nv7cmyb.mongodb.net/shopapp")
 .then(() => console.log("Connected to DB"))
 .catch((err) => console.log(err));
 
