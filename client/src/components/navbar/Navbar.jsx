@@ -17,8 +17,6 @@ export default function Navbar() {
     const [products,setProducts] = useState([]);
     const location = useHref().split("/")[1];
 
-    console.log(location)
-
     useEffect(() => {
         const fetchProducts = async () => {
             if(search.length > 3){
